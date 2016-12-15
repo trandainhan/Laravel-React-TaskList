@@ -1,0 +1,28 @@
+html, body {
+	height: 100%;
+}
+
+.task-app {
+	width: 50%;
+	margin: auto;
+}
+
+.new-task {
+	margin-bottom: 20px;
+}
+
+.filter-task {
+	margin-bottom: 20px;
+}
+
+.task {
+	margin-bottom: 10px;
+
+	button {
+		margin-right: 10px;
+	}
+
+	p {
+		line-height: 35px;
+	}
+}
