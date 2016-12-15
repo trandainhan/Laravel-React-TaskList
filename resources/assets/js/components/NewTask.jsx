@@ -19,11 +19,12 @@ var NewTask = React.createClass({
 
 	handleKeyPress: function(e) {
 		if (e.key === 'Enter') {
-			this.handleClick();
+			this.handleAddTask();
 		}
 	},
 
 	handleAddTask: function () {
+		if (this.task.name === '') return;
 		this.props.onAddTask(toJS(this.task));
 		this.task.updateName('');
 	},
