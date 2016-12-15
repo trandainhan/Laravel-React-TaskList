@@ -6,5 +6,6 @@ An example app using [Laravel 5.3](https://laravel.com), [React](https://faceboo
 - `composer install`
 - `npm install`
 - `cp .env.example .env`
+- `touch database/database.sqlite`
 - Once npm dependencies are installed: `npm run dev`
 - Open your browser to the address of your webserver located
