@@ -36539,7 +36539,7 @@
 
 
 	// module
-	exports.push([module.id, "html, body {\n  height: 100%; }\n\n.task-app {\n  width: 50%;\n  margin: auto; }\n\n.new-task {\n  margin-bottom: 20px; }\n\n.filter-task {\n  margin-bottom: 20px; }\n\n.task {\n  margin-bottom: 10px; }\n  .task button {\n    margin-right: 10px; }\n  .task p {\n    line-height: 35px; }\n", ""]);
+	exports.push([module.id, "html, body {\n  height: 100%; }\n\n.task-app {\n  width: 50%;\n  margin: auto; }\n\n.new-task {\n  margin-bottom: 20px; }\n\n.filter-task {\n  margin-bottom: 20px; }\n\n.task {\n  margin-bottom: 10px; }\n  .task p {\n    font-size: 18px; }\n  .task button {\n    margin-right: 10px; }\n  .task p {\n    line-height: 35px; }\n", ""]);
 
 	// exports
 
